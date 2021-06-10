@@ -295,7 +295,7 @@ nav{
 .contacts{
     text-align: center;
     background: url(../img/%D0%A4%D0%BE%D0%BD2.png)center/cover no-repeat;
-    height: 810px;
+    height: 910px;
     margin-top: 92px;
 }
 .contacts h2{
@@ -324,18 +324,57 @@ nav{
 .class img{
     padding: 0px 0px 14px 0px;
 }
-.geo{
+.neo{
     width: 100%;
     height: 96px;
     background-color: #354051; 
 }
-.geo p{
+.neo p{
     color: #ffffff;
     padding: 42px 0px 41px 0px;
     text-align: center;
     font-size: 16px;
 }
-
+.class{
+    height: 160px;
+}
+.contacts h4{
+    font-size: 25px;
+    color: #ffffff;
+    padding: 36px 0px 45px 0px
+}
+.message input{
+    height: 35px;
+    width: 353px;
+    margin: 0px 15px 13px 15px;
+    padding: 12px 0px 14px 14px;
+    
+}
+.message input{
+    background: #d2d6dc;
+}
+.sms input{
+    height: 95px;
+    width: 737px;
+    margin: 0px 0px 30px 0px;
+    padding: 11px 0px 74px 15px;
+    
+}
+.sms input{
+    background: #d2d6dc;
+}
+.send input{
+    height: 46px;
+    width: 124px;
+    border: 2px solid #f9faff;
+    background: none; 
+    color: #fff;
+    border-radius: 5px;
+}
+.geo img{
+    width: 100%;
+    height: 353px;
+}
     
 
 
