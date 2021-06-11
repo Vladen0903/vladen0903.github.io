@@ -111,6 +111,50 @@ nav{
     margin: 110px 800px 30px 800px;
     border: 2px solid #fff;
 }
+.sign-up{
+    background: url(../img/%D1%84%D0%BE%D0%BD3.png) center/cover no-repeat;
+    height: 700px;
+    width: 100%;
+    margin-top: 110px;
+    padding: 1px;
+}
+.sign-up h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 10px 20px 10px;
+    margin: 110px 800px 30px 800px;
+    border: 2px solid #fff;
+}
+.sms{
+    text-align: center;
+}
+.sms input{
+    margin: 40px 20px 10px 30px;
+    padding: 20px 0px 20px 30px;
+    background-color:  #fff;
+}
+.messadge input{
+    margin: 20px 0px 0px 0px;
+    padding: 30px 260px 50px 20px;
+    text-align: left;
+}
+.send{
+    text-align: center;
+}
+.send input{
+    text-align: center;
+    margin: 45px 0px 0px 0px;
+    padding: 10px 30px 10px 30px; 
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    
+}    
+
     
     
     
