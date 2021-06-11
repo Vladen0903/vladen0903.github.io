@@ -70,20 +70,47 @@ nav{
 }
 .prays{
     background: url(../img/videoblocks-mens-beauty-and-health-concept-various-shaving-and-bauty-care-accessories-placed-on-black-background-with-shaver-brush-cream-towel-and-other-top-view-flat-lay_hfjo11t6i_thumb.png) center/cover no-repeat;
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin-top: 110px;
+    padding: 1px;
 }
 .prays h2{
+   font-size: 35px;
+    border: 2px solid #fff;
+    margin: 109px 800px 30px 800px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+}
+.prays div{
+    width: 50%;
+    margin-left: 500px;
+    padding-top: 10px;
+    border-bottom: 2px solid #7F7E7A;
+    font-size: 18px;   
+}
+.gallery img{
+    text-align: center;
+    height: 200px;
+    width:  400px;
+    border: 2px solid #fff;
+    margin-right:  30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.gallery h2{
     font-size: 35px;
     text-align: center;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
-    padding-top: 110px;
+    padding: 20px 10px 20px 10px;
+    margin: 110px 800px 30px 800px;
+    border: 2px solid #fff;
 }
-.prays
-    
     
     
     
