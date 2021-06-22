@@ -5,27 +5,26 @@ nav{
      width: 100%;
      height: 60px;
      background: #344051;
-    position: fixed;
-    
+     position: fixed;
+    z-index: 10;
 }
 .logo{
     color: #fff;
-    font-size: 23px;
-    line-height: 60px;
-    padding-left: 388px; 
+    font-size: 28px;
+    line-height: 60px; 
     float: left;
     animation: coming 2s ease;
     display: block;
 }
 .menu{
     float: left;
-    padding-left: 432px;
+    
 }
 .menu li{
     float: left;
     line-height: 60px;
     color: #fff;
-    margin-right: 39px;
+    margin-right: 40px;
     font-size: 14px;
     text-transform: uppercase;
     animation: topshift 0.4s ease forwards;
@@ -34,21 +33,22 @@ nav{
 .main{
     width: 100%;
     height: 100%;
-    background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat, url(../img/%D1%84%D0%BE%D0%BD.png) center/cover no-repeat;
+    background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png) 90% 100%/auto 85% no-repeat, url(../img/%D1%84%D0%BE%D0%BD.png) 100% center/cover no-repeat;
     
 }
 .title_container{
     float: left;
-    margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
+    width: 100%;
     opacity: 0;
     animation: titlemove 1s ease forwards;
     animation-delay: 2.4s;
 }
 .title_container h1{
+    font-family: Arial, sans-serif;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .title_container h4{
     margin-top: 30px;
@@ -71,6 +71,7 @@ nav{
     color: white;
     transform: scale(1);
     display: inline-block;
+    text-decoration: none;
 }
 .menu li a:visited{
     color: white;
@@ -139,7 +140,7 @@ nav{
     }
     to{
         opacity: 1;
-        margin-left: 404px;
+        margin-left: 0px;
     }
 }
 .about_me{
@@ -486,6 +487,32 @@ nav{
 .geo img{
     width: 100%;
     height: 353px;
+}
+.white-btn:visited{
+    color: white;
+}
+@media (max-width: 991px){
+    .title_container, .title_container h4, .title_container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title_container input{
+        border: 2px solid #fff;
+    }
+    .main{
+        position: relative;
+    }
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4)
+    }
+    
 }
     
 
