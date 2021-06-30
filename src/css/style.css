@@ -178,7 +178,7 @@ nav{
 }
 .what_I_can{
     text-align: center;
-    height: 560px;
+    height: 523px;
     width: 100%;
     background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat; 
     background-attachment: fixed;
@@ -188,32 +188,29 @@ nav{
     font-weight: bold;
     color: #263244;
     text-transform: uppercase;
-    padding: 107px 0px 31px 0px;
+    padding-top: 107px;
 }
 .options{
-    float: left;
-    padding-left: 418px;
+    display: flex;
+    justify-content: center;
 }
 .options li{
     float: left;
     line-height: 18px;
-    margin-right: 85px;
-    height: 163px;
-    width: 213px;
+    padding-right: 85px;
+    padding-left: 85px;
+    width: 350px;
 }
 .options h3{
     font-size: 18px;
     color: #cf7600;
-    margin:  34px 0px 17px 0px;
+    margin-top: 36px;
 }
 .options img{
-    margin: 102px 0px 0px 0px;
-}
-.options p{
-    margin: 0px 0px 92px 0px;
+   padding-top: 82px;
 }
 .cases{
-    text-align: center;
+  
 }
 .cases h2{
     font-size: 35px;
@@ -231,13 +228,7 @@ nav{
 .cases a img:active{
     transform: scale(1.2);
 }
-.cases h4{
-    padding: 0px 0px 42px 0px;
-}
-.cases p{
-    
-    padding: 0px 0px 40px 60px;
-}
+
 .client{
     float: left;
 }
@@ -260,7 +251,6 @@ nav{
 }
 .name p{
     text-align: left;
-    padding: 14px 0px 276px 0px;
     font-size: 16px;
     color: #3f495a;
     line-height: 18px; 
@@ -268,7 +258,6 @@ nav{
 .name h3{
     text-align: left;
     font-size: 25px;
-    
     color: #384354;
 }
 .calculation{
