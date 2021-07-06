@@ -205,18 +205,17 @@ nav{
     color: #263244;
     text-transform: uppercase;
     padding-top: 107px;
-}
-.options{
-    display: flex;
-    justify-content: center;
    
 }
+.options{
+    display: block;
+    justify-content: center;
+}
 .options li{
-    float: left;
+     float: left;
     line-height: 18px;
-    padding-right: 85px;
-    padding-left: 85px;
-    width: 350px;
+    padding-left: 50px;
+    width: 300px;
 }
 .options h3{
     font-size: 18px;
@@ -583,8 +582,86 @@ nav{
     }
     
 }
+@media (max-width: 1399px){
+    .what_I_can{
+        height: 800px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 25%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;
+        padding-right: 50px;    
+}      
+}
+@media (max-width: 1199px){
+     .what_I_can{
+        height: 800px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 20%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;      
+}
+}
+@media(max-width: 1073px){
+        .what_I_can{
+        height: 800px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 17%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;  
+    }
+}
+@media(max-width: 1033px){
+     .what_I_can{
+        height: 800px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 14%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;  
+    }
+}
 
-
+@media(max-width: 998px){
+     .what_I_can{
+        height: 1400px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 31%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;  
+    }
+}
+@media(max-width: 770){
+     .what_I_can{
+        height: 1400px;
+        width: 100%;
+    }
+    .options{
+        margin-left: 25%;
+    }
+    .options li{
+        float: left;
+        line-height: 18px;  
+    }
+}
 
 
 
