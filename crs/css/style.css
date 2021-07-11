@@ -1,0 +1,324 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #7B917B;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #2D572C;
+}
+
+.menu .container {
+    background: #2D572C;
+    padding-bottom: 100px;
+}
+
+.menu {
+    line-height: 60px;
+}
+
+.menu li {
+    float: left;
+    padding-right: 30px;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #fff;
+    transition: none;
+    transition: all 0.1s;
+}
+
+.menu li:active {
+    transform: scale(1.1)
+}
+
+.heading {
+    width: 100%;
+    height: 1000px;
+    background: url(../img/%D1%84%D0%BE%D0%BD_1.jpg) center no-repeat;
+    background-attachment: fixed;
+}
+
+.heading h1 {
+    padding-top: 100px;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introduction .container {
+    height: 1500px;
+
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+
+}
+
+.introduction h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+
+}
+
+.introduction img {
+    margin-left: 135px;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    padding: 15px;
+    background: #89AC76;
+}
+
+.introduction p {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 135px;
+    margin-top: 30px;
+    width: 1030px;
+    border: 2px solid #fff;
+    background: #89AC76;
+    padding: 10px 20px;
+}
+
+.beginning {
+    width: 100%;
+    height: 960px;
+    background: url(../img/%D1%84%D0%BE%D0%BD_2.jpg) center no-repeat;
+    padding-top: 50px;
+    background-attachment: fixed;
+}
+
+.beginning h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+}
+
+.beginning p {
+    color: white;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background: #89AC76;
+    padding: 10px;
+}
+
+.beginning img {
+    width: 500px;
+    height: 600px;
+    border: 2px solid #fff;
+    padding: 15px;
+    background: #89AC76;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.continuation .container {
+    height: 1000px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding-top: 50px;
+}
+
+.continuation h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+}
+
+.continuation img {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+    background: #89AC76;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.continuation p {
+    color: white;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background: #89AC76;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.next_lesson {
+    width: 100%;
+    height: 1100px;
+    background: url(../img/%D1%84%D0%BE%D0%BD_3.jpg) no-repeat center;
+    padding-top: 50px;
+    background-attachment: fixed;
+    
+}
+
+.next_lesson h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+}
+
+.next_lesson img {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+    background: #89AC76;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.next_lesson p {
+    color: white;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background: #89AC76;
+    padding: 10px;
+    margin-top: 200px;
+}
+
+.half h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+}
+
+.half .container{
+    height: 1100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+.half img{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #fff;
+    padding: 15px;
+    background: #89AC76;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.half p{
+    color: white;
+    font-size: 18px;
+    border: 2px solid #fff;
+    background: #89AC76;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.heading_2 {
+    width: 100%;
+    height: 960px;
+    background: url(../img/%D1%84%D0%BE%D0%BD_4.jpg) no-repeat center;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+.heading_2 h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    border: 2px solid #fff;
+    padding: 20px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background: #89AC76;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
