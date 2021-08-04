@@ -8,13 +8,14 @@ nav{
      position: fixed;
     z-index: 10;
 }
-.logo{
+.logo a{
     color: #fff;
     font-size: 28px;
     line-height: 60px; 
     float: left;
     animation: coming 2s ease;
     display: block;
+    text-decoration: none;
     
 }
 .menu{
@@ -227,6 +228,10 @@ nav{
 }
 .cases{
   text-align: center;
+    margin-bottom: 164px;
+}
+.carousel-item .carousel-caption{
+    color: #000;
 }
 .cases h2{
     font-size: 35px;
@@ -240,74 +245,32 @@ nav{
     padding-bottom: 37px;
 
 }
-.client{
-    float: left;
-    padding-right: 126px;
-}
-.client h3{
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    color: #384354;
-    text-align: center;
-}
-.client p{
-    text-align: left;
-    font-size: 14px;
-    font-weight: bold;
-    color: #636a76;
-    padding-bottom: 14px;
-    padding-left: 80px;
-}
-.name p{
-    text-align: left;
-    font-size: 16px;
-    color: #3f495a;
-    line-height: 18px;
-}
-.name h3{
-    text-align: left;
-    font-size: 25px;
-    color: #384354;
-}
-.client h4{
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-    color: #384354;
-    text-align: center;
-    padding-left: 0px;
-}
-.button a{
-    padding: 15px 35px 15px 35px;
-    border-radius: 8px;
-    color: white;
+.carousel-caption a{
     background: #00b6af;
     text-decoration: none;
     font-size: 18px; 
+    color: #fff;
+    display: inline-block;
 }
-.button a{
+.carousel-caption a{
     transform: scale(1);
     display: block;
 }
-.button a:active{
+.carousel-caption a:active{
    transform: scale(1.1);
 }
-.button a:hover{
-    background: #f79b21;
+.carousel-caption a:hover{
+    background: #fff;
 }
-.button {
-    padding-left: 60px;
-}
+
 .calculation{
     display: block;
     justify-content: center;
-    margin-top: 164px;
     padding-top: 39px;
     border: 1px solid #fff;
-    margin-left: 170px;
-    width: 978px;
-    box-shadow: 0px 0px 12px 7px #e9e9e9;   
+    width: 70%;
+    box-shadow: 0px 0px 12px 7px #e9e9e9;
+    margin-left: 15%;
 }
 .calculation h2{
     text-align: center;
@@ -322,44 +285,28 @@ nav{
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 22px;
-    padding-left: 41px;
+    padding-left: 5%;
     color: #1c2534;
 }
 .calculation select{
     border: 1px solid #000;
     margin-bottom: 44px;
-    margin-left: 39px;
-    width: 893px;
+    margin-left: 5%;
+    width: 90%;
     height: 59px;
     background: #eeeeee;
     font-size: 14px;
     color: #7d7d7d;   
 }
-.time{
+.result{
     text-align: left;
     margin-bottom: 25px;
-    margin-left: 39px;
+    margin-left: 5%;
     border-top: 2px solid #d1d1d1;
-    width: 893px;
-    
+    width: 90%;
 }
-.time p{
-    padding: 24px 0px 22px 0px; 
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-    padding: 24px 0px 20px 0px; 
-    word-spacing: 813px;
-    color: #1c2534;
-}
-.time span{
-    padding: 24px 0px 22px 0px; 
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-    padding: 24px 0px 0px 0px; 
-    word-spacing: 767px;
-    color: #1c2534;
+.time{
+     
 }
 .the_end{
     text-align: center;
@@ -381,11 +328,7 @@ nav{
 .the_end input:hover{
     background: #f79b21;
 }
-.uCalc_361314{
-    margin-top: 220px;
-    box-shadow: 0px 0px 12px 7px #e9e9e9;
-    padding-top: 50px;
-}
+
 .statistics{
     text-align: center;
     height: 599px;
@@ -404,25 +347,30 @@ nav{
 }
 .h2{
     text-align: center;
-    padding-bottom: 74px;
+    
 }
 .general{
-    display: flex;
+    display: block;
     justify-content: center;
    
+}
+.statistics li img{
+    margin-top: 120px;
 }
 .statistics li{
     float: left;
     line-height: 18px;
     height: 155px;
-    padding-right: 79px;
-    padding-left: 79px;
+    padding-right: 6%;
+    padding-left: 6%;
+    
 }
 .statistics p{
     text-align: center;
     font-size: 18px;
     color: #444e5d;
-    padding: 30px 0px 102px 0px;
+    padding-top: 30px;
+    margin-bottom: 102px;
 }
 .statistics h3{
     text-align: center;
@@ -432,7 +380,15 @@ nav{
     font-weight: bold;
 }
 .reviews{
+text-align: center;
+}
+.carousel-inner{
+    width: 500px;
     text-align: center;
+    
+}
+.carousel-inner img{
+    width: 100px;
 }
 .reviews h2{
     font-size: 35px;
@@ -458,7 +414,7 @@ nav{
 .contacts{
     text-align: center;
     background: url(../img/%D0%A4%D0%BE%D0%BD2.png)center/cover no-repeat;
-    height: 910px;
+    height: 1010px;
     margin-top: 92px;
 }
 .contacts h2{
@@ -587,91 +543,45 @@ nav{
     }
     
 }
-@media (max-width: 1399px){
+@media (max-width: 1400px){
     .what_I_can{
-        height: 800px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 25%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;
-        padding-right: 50px;    
-}      
+    text-align: center;
+    height: 723px;
+    width: 100%;
+    background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat; 
+    background-attachment: fixed;
 }
-@media (max-width: 1199px){
-     .what_I_can{
-        height: 800px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 20%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;      
-}
-}
-@media(max-width: 1073px){
-        .what_I_can{
-        height: 800px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 17%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;  
-    }
-}
-@media(max-width: 1033px){
-     .what_I_can{
-        height: 800px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 14%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;  
-    }
 }
 
-@media(max-width: 998px){
-     .what_I_can{
-        height: 1400px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 31%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;  
-    }
+@media (max-width: 768px){
+    .what_I_can{
+    text-align: center;
+    height: 1323px;
+    width: 100%;
+    background: none;
 }
-@media(max-width: 770){
-     .what_I_can{
-        height: 1400px;
-        width: 100%;
-    }
-    .options{
-        margin-left: 25%;
-    }
-    .options li{
-        float: left;
-        line-height: 18px;  
-    }
 }
-
-
-
-
-
+@media (max-width: 410px){
+    .calculation h3{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+    padding-left: 5%;
+    color: #1c2534;
+}
+}
+@media (max-width: 1400px){
+    .statistics li{
+    float: left;
+    line-height: 18px;
+    height: 155px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 76px;
+}
+}
 
 
 
